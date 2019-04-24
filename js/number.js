@@ -34,7 +34,10 @@ console.log(mod);
 var mod = b%c;
 console.log(mod);
 
-var e='5';
+var e='20';
 console.log(typeof e); //not at # but is a string returns type of variable
 var e='5';
 console.log(e);
+
+console.log(a === e); // strict equality will not do type conversion
+console.log(a == e); // loose comparison will do type conversion
