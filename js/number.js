@@ -40,4 +40,4 @@ var e='5';
 console.log(e);
 
 console.log(a === e); // strict equality will not do type conversion
-console.log(a == e); // loose comparison will do type conversion
+console.log(a == e); // loose comparison will do type conversion //truthy
