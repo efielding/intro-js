@@ -4,7 +4,7 @@ var car = {
     make: 'honda',
     model: 'civic',
     year: 2019
-}
+};
 console.log(car);
 console.log(car.model);
 console.log(car.year);
